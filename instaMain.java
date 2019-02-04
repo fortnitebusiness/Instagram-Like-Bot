@@ -31,7 +31,7 @@ public class instaMain {
 		WebElement userName = driver.findElement(By.xpath("//input"));
 		userName.sendKeys("insta_like_bot0");
 		WebElement password = driver.findElement(By.xpath("(//input)[2]"));
-		password.sendKeys("!Gamer4!");
+		password.sendKeys("***YOUR PASSWORD HERE***");
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("(//button)[2]")).click();
 		Thread.sleep(2000);
